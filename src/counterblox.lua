@@ -487,7 +487,7 @@ local WatermarkConnection = RunService.RenderStepped:Connect(function()
         FrameTimer = tick()
         FrameCounter = 0
     end
-    Library:SetWatermark(('Roblox Cheat | %s fps | %s ms'):format(
+    Library:SetWatermark(('chatgpthaxx [Counter Blox] | %s fps | %s ms'):format(
         math.floor(FPS),
         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
     ))
