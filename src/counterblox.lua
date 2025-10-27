@@ -230,7 +230,7 @@ RunService.RenderStepped:Connect(function()
 end)
 
 local Window = Library:CreateWindow({
-    Title = 'Cherry Hub',
+    Title = 'ChatGptHaxx.lol',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
