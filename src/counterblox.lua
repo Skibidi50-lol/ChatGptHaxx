@@ -230,7 +230,7 @@ RunService.RenderStepped:Connect(function()
 end)
 
 local Window = Library:CreateWindow({
-    Title = 'ChatGptHaxx.lol',
+    Title = 'chatgpthaxx.lol',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -509,5 +509,3 @@ SaveManager:BuildConfigSection(Tabs['UI Settings'])
 ThemeManager:ApplyToTab(Tabs['UI Settings'])
 SaveManager:LoadAutoloadConfig()
 ThemeManager:ApplyTheme('Ubuntu')
-
-print("Cheat Script Loaded with Linoria (Aim Assist Press/Release + ESP with Boxes, Names, Health, Tracers)!")
